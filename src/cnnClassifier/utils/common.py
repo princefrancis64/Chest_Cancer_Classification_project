@@ -23,9 +23,11 @@ def read_yaml(path_to_yaml:Path)->ConfigBox:
         ConfigBox: ConfigBox type
     """
     try:
-        with open(path_to_yaml) as yaml_file:
+        with open(path_to_yaml,"r") as yaml_file:
             content= yaml.safe_load(yaml_file)
-            logger.info(f"yaml file:{path_to_yaml} loaded successfully")
+        content = ConfigBox(content)
+        logger.info(f"yaml file:{path_to_yaml} loaded successfully")
+        return content
     except BoxValueError:
         raise ValueError("yaml file is empty")
     except Exception as e:
@@ -108,3 +110,6 @@ def decodeImage(imgstring,fileName):
 def encodeImageIntoBase64(croppedImagePath):
     with open(croppedImagePath,"rb") as f:
         return base64.b64decode(f.read())
+    
+
+read_yaml(path_to_yaml=Path('config/config.yaml'))

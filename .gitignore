@@ -1,6 +1,7 @@
 ### Dataset
 Dataset
 chest_canc
+artifacts
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
