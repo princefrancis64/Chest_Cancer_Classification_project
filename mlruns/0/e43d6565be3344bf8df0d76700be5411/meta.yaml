@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Prince/Desktop/Projects/Chest_Cancer_Classification/mlruns/0/e43d6565be3344bf8df0d76700be5411/artifacts
+end_time: 1711158355221
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e43d6565be3344bf8df0d76700be5411
+run_name: bedecked-vole-47
+run_uuid: e43d6565be3344bf8df0d76700be5411
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711158337601
+status: 3
+tags: []
+user_id: Prince
