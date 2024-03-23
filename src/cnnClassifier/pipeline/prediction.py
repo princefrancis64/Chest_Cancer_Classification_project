@@ -12,6 +12,7 @@ class PredictionPipeline:
 
     
     def predict(self):
+        
         ## load model
         
         # model = load_model(os.path.join("artifacts","training", "model.h5"))
