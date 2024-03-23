@@ -4,6 +4,7 @@ chest_canc
 artifacts
 logs
 */logs
+mlruns
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
